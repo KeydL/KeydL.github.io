@@ -109,9 +109,15 @@ td, th {
   background: #4169E1;
   font-family: 'pixeloid bold';
   color: #1E90FF;
-  background-size: 200% auto;
   border-radius: 10px;
   padding: 10px 10px;
   margin: 10px 10px;
+  height: 25px;
+  width:85px;
+  opacity: 0.5;
+}
+
+.button:hover{
+  opacity: 1;
 }
 
