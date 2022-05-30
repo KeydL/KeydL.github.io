@@ -1,0 +1,117 @@
+@font-face {
+    font-family: 'pixeloid';
+    src: url(fonts/PixeloidSans.ttf);
+   }
+
+@font-face {
+    font-family: 'pixeloid bold';
+    src: url(fonts/PixeloidSansBold-RpeJo.ttf);
+   }
+
+html{
+  scroll-behavior: smooth;
+}
+
+
+h1 {
+  color: #F5F5F5;
+  font-family: 'pixeloid bold';
+  text-align: center;
+  margin: 20px 0;
+  font-size: 46px;
+}
+
+p {
+  font-family: 'pixeloid';
+  color: #1E90FF;
+}
+
+.interes {
+  font-family: 'pixeloid';
+  color: #1E90FF;
+  font-size: 18px;
+}
+
+header {
+	background: #4169E1;
+	display: flex;
+	justify-content: space-between;
+	margin: 20px 0;
+}
+
+body {
+	background-image: url(background.png);
+	background-repeat: repeat;
+}
+
+td, th {
+    padding: 3px; 
+    border: 3px dotted; #1E90FF;
+    text-align: center; 
+   }
+
+.logo {
+	margin-left: 10px;
+	margin: 5px;
+}
+
+.standart {
+	font-family: 'pixeloid';
+  	color: #4169E1;
+  	border: 2px solid white;
+}
+
+.title{
+	font-family: 'pixeloid bold';
+  	color: #1E90FF;
+  	font-size: 35px;
+    text-shadow: 4px 0px #0000CD, 5px 0px #00008B;
+}
+
+.right{
+  margin: 0px 60px 0px 60px;
+}
+
+
+.mini{
+	font-size: 10px;
+	font-family: 'pixeloid';
+  color: #4169E1;
+}
+
+.asd{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+
+
+
+.headblock {
+	width: 30%;
+	padding: auto 0; 
+	margin: 20px 0;
+}
+
+.allfights{
+	border: 2px solid white;
+}
+
+.prokrut{
+  scroll-behavior: smooth;
+}
+
+.button{
+  position:fixed;
+  bottom:50px;
+  right:50px;
+  background: #4169E1;
+  font-family: 'pixeloid bold';
+  color: #1E90FF;
+  background-size: 200% auto;
+  border-radius: 10px;
+  padding: 10px 10px;
+  margin: 10px 10px;
+}
+
